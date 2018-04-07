@@ -1,0 +1,5 @@
+package: github.com/forvos/spider
+import:
+- package: github.com/go-stack/stack
+  version: ^1.7.0
+- package: golang.org/x/sys
