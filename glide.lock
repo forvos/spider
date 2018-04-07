@@ -1,8 +1,10 @@
-hash: 24ff1a25efd7326a70f574a7246799c88628884db792f0e70c8fdc5d50bb74bd
-updated: 2018-04-07T20:34:20.039091369+08:00
+hash: a31f22355fdfee6803d6db55076637c6b15c4bb3069e634998b807080b1b57ac
+updated: 2018-04-07T21:46:45.506135546+08:00
 imports:
 - name: github.com/go-stack/stack
   version: 259ab82a6cad3992b4e21ff5cac294ccb06474bc
-- name: golang.org/x/sys/unix
+- name: golang.org/x/sys
   version: 3b87a42e500a6dc65dae1a55d0b641295971163e
+  subpackages:
+  - unix
 testImports: []
